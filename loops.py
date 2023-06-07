@@ -103,3 +103,76 @@ while i<=10:
             print("Hello")
         j+=1
     i+=1
+
+i = 1
+while -5:
+    j = 2
+    while j<=4:
+        if j == 4:
+           break
+        j+=1
+    print(i)
+    if i == 5:
+        break
+    i+=1
+else:
+    print("RUN Successfully")
+
+
+# Print Reverse Number
+
+num = 894   # 498
+
+# while num > 0:
+while num != 0:
+    rem = num % 10     # rem = 4
+    print(rem,end='')  # 4
+    num = num // 10    # num = 89
+
+print()
+
+# Sum of Digits
+num = 894   # 498
+sum = 0
+
+# while num > 0:
+while num != 0:
+    rem = num % 10     # rem = 4
+    sum = sum + rem    # sum = 21
+    num = num // 10    # num = 89
+
+print(sum)   # 21
+
+
+# Palindrome
+num = 101   # 498
+rev = 0
+safe = num
+# while num > 0:
+while num != 0:
+    rem = num % 10     # rem = 8
+    rev = rev * 10 + rem    # sum = 498
+    num = num // 10    # num = 0
+
+print(rev)   # 101
+
+if rev == safe:   # 101 == 101
+    print("Palindrome")
+
+# Armstrong
+num = 8208   # 498
+rev = 0
+safe = num
+# while num > 0:
+while num != 0:
+    rem = num % 10     # rem = 8
+    rev = rev + rem ** len(str(safe))    # sum = 498
+    num = num // 10    # num = 0
+
+print(rev)   # 101
+
+if rev == safe:   # 101 == 101
+    print("Armstrong")
+
+
+# Prime, Palindrome, Armstrong  ----->  1 to 10000
