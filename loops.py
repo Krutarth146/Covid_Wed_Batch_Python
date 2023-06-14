@@ -176,3 +176,24 @@ if rev == safe:   # 101 == 101
 
 
 # Prime, Palindrome, Armstrong  ----->  1 to 10000
+
+
+
+# -----------------------------------------
+
+
+# Continue keyword
+
+i = 10
+while i<=13:  # 10 to 13   # i = 11
+    j = 0
+    while j<=2:  # 0 to 2   # j = 0
+        if i % 2 == 0:
+            j+=1
+            continue
+        print(j)
+        j+=1
+    print(i)
+    i+=1
+
+# 10 0 1 2 11 
